@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<script src="../scripts/loadinfo.js"></script>
+
+<script>
+    SetInfo("Settings", "../icons/frostygamezlogo.ico");
+</script>
+
+<script src="../settings/settings.js"></script>
+
+<link rel="stylesheet", href="../styles/main.css">
+<script src="../settings/settings.js"></script>
+
+<ul class="topbar"> 
+        <li><a href="../index.html"><button>Home</button></a></li>
+        <li><a href="../games.html"><button>Gamez</button></a></li>
+        <li><a href="../settings/settings.html"><button>Settings</button></a></li>
+   </ul>
+
+<head>
+    <hr style="height:45px">
+    <center><h1 class="title">Settings</h1></center>
+</head>
+
+<body>
+    <hr>
+    <center><h1>Tab Title (Press Enter To Update)</h1></center>
+    <center><input value="Title" onkeydown="SetTitle(this)"></input></center>
+    <hr style="height:5px">
+    <center><button onclick="ResetTitle()">Reset Title</button></center>
+    <hr style="height: 30px;">
+    <center><h1>Tab Favicon (Press Enter To Update)</h1></center>
+    <center><input value="Title" onkeydown="SetFavicon(event, this)"></input></center>
+    <hr style="height: 5px;">
+    <center><button onclick="ResetFavicon()">Reset Favicon</button></center>
+</body>
+
+</html>

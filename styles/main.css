@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+body {
+    background-color: rgb(0, 122, 204);
+    font-family: "Kdam Thmor" sans-serif;
+}
+
+h1 {
+    color: black;
+    font-family: "Kdam Thmor" sans-serif;
+}
+
+h2 {
+    color: black;
+}
+
+.title {font-size: 70px; font-family: "Kode Mono", sans-serif}
+
+button {
+    background: none;
+    height: 35px;
+    width: 120px;
+    font-size: 20px;
+    outline:  1px solid black;
+    color: black;
+}
+
+button:hover {
+    background-color: rgb(0, 204, 102);
+    color: blue;
+    outline: 1px solid black;
+}
+
+.fnafbutton {
+    font-size: 10px;
+}
+
+iframe {overflow: hidden;}
+
+.topbar {list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: black; height: 70px; width: 100vw; left: 0px; top:0px; position: absolute;}
+
+.topbar li {float: right;}
+
+.topbar li button {background-color: black; height: 70px; color: white ; padding: 0px; border: none; }
+
+.topbar li button:hover, .gamelist li button:hover {color: black; background-color: rgba(88, 169, 255, 0.926);}
+
+hr { border: 0; height: 10px; width: 100%;} 
+
+.tophr { border: 0; height: 50px; width: 100%;}
+
+.gamelist {list-style-type: none; width: 25px; height: 100vh; margin-left: 42.5%; margin-top: 5%;}
+
+.gamelist li button {background-color: black; width: 200px; height: 55px; color: white ; padding: 0px; border: none; outline: 2px solid black; margin-top: 40px;}
+
+img {width: 750px; height: 480px; margin-top: 5%;}
